@@ -1,7 +1,10 @@
 module.exports = {
   env: {
     browser: true,
+<<<<<<< HEAD
     commonjs: true,
+=======
+>>>>>>> setup
     es6: true,
   },
   extends: [
@@ -13,8 +16,16 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 2018,
+<<<<<<< HEAD
   },
   rules: {
     'comma-dangle':0
   }
+=======
+    sourceType: 'module',
+  },
+  rules: {
+    "comma-dangle": 0
+  },
+>>>>>>> setup
 };
